@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SMART SETUP</string>
+    <string name="device_1">SMART G4</string>
+    <string name="device_g4">G4</string>
+    <string name="device_2">SMART MG4</string>
+    <string name="device_mg4">MG4</string>
+    <string name="device_3">SMART MGZ8</string>
+    <string name="device_mgz8">MGZ8</string>
+    <string name="default_name">SMARTALARM</string>
+
+    <string name="update_app_url">http://smartalarm.ir/download/smart_setup.apk</string>
+    <string name="notification_description">در حال دانلود نسخه جدیدی از نرم افزار</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_paired_devices">دستگاه های جفت شده</string>
+    <string name="title_other_devices">دیگر دستگاههای در دسترس</string>
+    <string name="scanning">اسکن برای یافتن دستگاه</string>
+    <string name="none_paired">دستگاه جفت شده ای نیست</string>
+    <string name="select_device">یک دستگاه انتخاب کنید</string>
+    <string name="none_found">دستگاهی یافت نشد</string>
+    <string name="bluetooth_steering_weel_started">فرمان به بلوتوث آغاز شده </string>
+    <string name="bluetooth_steering_weel_stopped">فرمان به بلوتوث متوقف شده</string>
+    <string name="bluetooth_steering_weel_label">SMART G4</string>
+    <string name="button_scan">اسکن برای دستگاهها</string>
+    <string name="title_activity_activty_charge_mg4">ActivtyChargeMG4</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layoutDirection="ltr"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    android:background="#0050bc"
+
+    tools:context="smart.SmartSetup.MG4.About_System">
+    <include layout="@layout/mg4_custom_toolbar"/>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+        <TextView
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:text="IMEI:"
+            android:layout_width="80dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/serialNumber"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="..."
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:text="Main Bord:"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/mainbord"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="..."
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:text="Auto Dialer:"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/AutoDialer"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="..."
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/gositeAbout"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:text="WWW.SmartAlarm.ir"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

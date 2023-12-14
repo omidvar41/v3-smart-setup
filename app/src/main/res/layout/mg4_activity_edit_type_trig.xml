@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layoutDirection="ltr"
+
+    android:layout_height="wrap_content"
+    android:orientation="vertical" android:layout_gravity="center">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="256dip"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_gravity="center">
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:gravity="right|center_vertical" android:layout_margin="5dip">
+
+
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:text="سطحی"
+                    android:checked="true"
+                    android:id="@+id/chlevel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:layout_margin="5dip"/>
+
+
+
+
+
+
+
+                <RadioButton
+                    android:text="لحظه ای"
+                    android:id="@+id/chEage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:layout_margin="5dip"/>
+
+
+        </RadioGroup>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center">
+
+
+
+
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="انصراف" />
+
+
+
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="ذخیره" />
+
+    </LinearLayout>
+
+</LinearLayout>

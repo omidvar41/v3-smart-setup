@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="newTheme1" parent="@android:style/Theme.Light.NoTitleBar"></style>
+    <style name="newTheme" parent="@android:style/Theme.Black.NoTitleBar"></style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@null</item>
+
+    </style>
+
+
+
+    <style name="NewDialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog"
+        >
+
+        <item name="android:windowCloseOnTouchOutside">false</item>
+
+
+    </style>
+
+
+    <style name="DialogEditSMS" parent="@style/Theme.AppCompat.Light.Dialog">
+
+
+        <item name="android:windowCloseOnTouchOutside">false</item>
+
+
+    </style>
+    <style name="spinnerItemStyle" parent="android:Widget.TextView.SpinnerItem">
+<item name="android:gravity">center</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+
+    <style name="spinnerDropDownItemStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:gravity">center</item>
+
+    </style>
+
+
+</resources>

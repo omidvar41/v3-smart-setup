@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:background="#00FFFFFF"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+            android:gravity="right|center_vertical"
+
+             >
+
+    <ImageView
+        android:background="@drawable/back_btn_clik1"
+        android:paddingBottom="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_1sdp"
+        android:id="@+id/btnDelete"
+        android:src="@drawable/delete"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="match_parent"/>
+
+
+
+    <LinearLayout
+        android:paddingBottom="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:id="@+id/layRemote"
+
+        android:background="@drawable/back_btn_clik1"
+        android:orientation="horizontal"
+        android:layout_weight="0.1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtRemot1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="0.1"
+            android:gravity="center|right"
+            android:paddingRight="3dip"
+            android:text="ریموت 1 :"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:textStyle="bold"
+
+
+            android:paddingRight="5dp"
+            android:textSize="18dp"
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ریموت1 :      "
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+
+
+
+        </LinearLayout>

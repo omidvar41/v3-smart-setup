@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_margin="@dimen/_10sdp"
+
+    android:layout_height="wrap_content"
+    android:orientation="vertical" android:layout_gravity="center">
+
+
+
+    <LinearLayout
+        android:padding="@dimen/_10sdp"
+        android:background="@drawable/dialog_background_inset"
+        android:gravity="fill_vertical"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:layout_gravity="center">
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" android:gravity="right|center_vertical" android:layout_margin="5dip">
+
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:text="غیر فعال"
+                        android:id="@+id/notActive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:layout_margin="5dip"/>
+
+
+                    <RadioButton
+                        android:text="فعال"
+
+                        android:id="@+id/Active"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:layout_margin="5dip"/>
+
+
+
+
+
+
+
+                    <RadioButton
+                        android:text="فعال دو مرحله ای"
+                        android:id="@+id/twoActive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:layout_margin="5dip"/>
+
+
+
+                </RadioGroup>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="center">
+
+
+
+
+
+            <Button
+                android:textSize="@dimen/_12sdp"
+                android:background="@drawable/circle_btn_gray"
+                android:id="@+id/btnExit"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:text="انصراف" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="0.1"/>
+
+
+            <Button
+                android:textSize="@dimen/_12sdp"
+                android:background="@drawable/circle_btn_gray"
+                android:id="@+id/btnSave"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:text="ذخیره" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

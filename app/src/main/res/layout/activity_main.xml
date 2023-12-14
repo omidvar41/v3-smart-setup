@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layoutDirection="ltr"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/gradient_bac" android:gravity="top|center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="vertical" android:gravity="top|center" android:layout_weight="0.75">
+
+
+        <LinearLayout
+            android:background="#262626"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/goSite"
+                android:gravity="center|top"
+                android:textColor="#fff"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="60dp"
+                android:textStyle="bold"
+                android:text="www.smartalarm.ir"
+                android:textSize="25sp"/>
+
+            <ImageView
+                android:padding="6dp"
+                android:id="@+id/help"
+                android:src="@drawable/ic_action_help"
+                android:layout_width="50dp"
+                android:layout_height="match_parent" />
+
+
+
+        </LinearLayout>
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13sdp"
+            android:padding="@dimen/_5sdp"
+            android:text=""
+            android:id="@+id/txtVersion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.7"
+            android:gravity="center"
+            android:layout_marginBottom="40dp"
+            android:orientation="vertical" >
+
+            <com.glide.slider.library.SliderLayout
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/textViewPass"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="0.5"
+            android:text="..."
+            android:textAppearance="?android:textAppearanceLarge" />
+<LinearLayout
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:layout_weight="0.5">
+
+    <info.hoang8f.widget.FButton
+        android:layout_margin="5dp"
+        android:gravity="center"
+            android:visibility="gone"
+        android:id="@+id/go_list"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="match_parent"
+
+
+        android:text="ورود"
+        android:textColor="#000000" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/connect"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="0.5"
+        android:drawableLeft="@drawable/blutose_disable"
+        android:gravity="center"
+
+
+        android:text="بلوتوث خاموش است"
+        android:textColor="#000000" />
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_180sdp"
+
+
+    android:layoutDirection="ltr"
+    android:layout_gravity="center"
+
+    android:orientation="vertical"  >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/dialog_background_inset"
+        android:padding="@dimen/_7sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/linText"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:gravity="right|center_vertical">
+            <ImageButton
+                android:background="@drawable/border_black"
+                app:layout_constraintStart_toStartOf="parent"
+                android:id="@+id/iconSeekBar"
+                android:scaleType="centerInside"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:padding="@dimen/_8sdp"
+                android:src="@drawable/muteblack" />
+<View
+    android:layout_width="wrap_content"
+    android:layout_weight="0.1"
+    android:layout_height="0dp"/>
+            <TextView
+                android:id="@+id/txtSetted"
+                android:fontFamily="@font/iran_yekan_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:text="تک بوق:"
+                android:textSize="18dip" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linSeek"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_gravity="top"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintTop_toBottomOf="@+id/linText">
+
+            <ImageButton
+                android:id="@+id/btnMine"
+
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="wrap_content"
+
+                android:padding="@dimen/_12sdp"
+                android:scaleType="centerInside"
+                android:src="@drawable/remove"
+                app:layout_constraintBottom_toBottomOf="@+id/SeekBarTak"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/SeekBarTak" />
+
+
+            <SeekBar
+                android:id="@+id/SeekBarTak"
+
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:cropToPadding="false"
+                android:max="7"
+                android:thumbTint="@color/black"
+
+
+                app:layout_constraintEnd_toStartOf="@+id/btnPlus"
+                app:layout_constraintStart_toEndOf="@+id/btnMine"
+                tools:ignore="UnusedAttribute" />
+
+            <ImageButton
+
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnPlus"
+
+                android:padding="@dimen/_12sdp"
+
+                android:scaleType="centerInside"
+                android:src="@drawable/add"
+                app:layout_constraintBottom_toBottomOf="@+id/SeekBarTak"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/SeekBarTak" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+
+            <Button
+                android:id="@+id/btnExit1"
+                android:background="@drawable/circle_btn_gray"
+
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/iran_yekan_bold"
+                android:text="انصراف" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_weight="0.1" />
+
+
+            <Button
+                android:background="@drawable/circle_btn_gray"
+                android:id="@+id/btnSave1"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/iran_yekan_bold"
+                android:text="ذخیره" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

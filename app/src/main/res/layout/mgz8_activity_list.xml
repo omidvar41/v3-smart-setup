@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layoutDirection="ltr"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#0050bc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="smart.SmartSetup.MGZ8.Activity_List_MGZ8">
+
+  <include layout="@layout/mg4_custom_toolbar"/>
+
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:orientation="vertical">
+
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/zon_name"
+            android:fontFamily="@font/iran_yekan_bold"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="زون ها"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+
+
+        <info.hoang8f.widget.FButton
+android:soundEffectsEnabled="true"
+
+            android:fontFamily="@font/iran_yekan_bold"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:id="@+id/access"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="شماره تلفن ها"
+            android:textSize="18dp" />
+
+
+
+
+        <info.hoang8f.widget.FButton
+            android:fontFamily="@font/iran_yekan_bold"
+
+            android:layout_marginTop="3dp"
+            android:id="@+id/out_name"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="خروجی ها"
+            android:textSize="18dp" />
+
+
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/iran_yekan_bold"
+
+            android:id="@+id/charge"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="فرمول شارژ"
+            android:textSize="18dp" />
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/iran_yekan_bold"
+
+            android:id="@+id/pasword"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="تغییر رمز"
+            android:textSize="18dp" />
+
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/remot_name"
+            android:fontFamily="@font/iran_yekan_bold"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="ریموتها"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/wl_name"
+            android:fontFamily="@font/iran_yekan_bold"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="نام سنسورهای بی سیم"
+            android:textSize="18dp"
+            android:visibility="gone" />
+
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/setting"
+            android:fontFamily="@font/iran_yekan_bold"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="تنظیمات"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/goAbout"
+            android:fontFamily="@font/iran_yekan_bold"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="درباره دستگاه"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

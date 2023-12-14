@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_150sdp"
+    android:layoutDirection="ltr"
+android:layout_margin="@dimen/_10sdp"
+    android:orientation="vertical" android:layout_gravity="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        android:background="@drawable/dialog_background_inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content" android:layout_weight="0.5">
+
+
+
+                <TextView
+                    android:id="@+id/txtCnRemotEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="3dip"
+                    android:text="10/1"
+                    android:textSize="18dip" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content" android:layout_weight="0.5" android:layout_gravity="right" android:gravity="right">
+
+
+
+                <TextView
+                    android:id="@+id/txtRemotEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="3dip"
+                    android:text="Remot"
+                    android:textSize="18dip" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:layout_gravity="center">
+
+
+
+
+            <EditText
+                android:id="@+id/edtRemotName"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:ems="10"
+                android:inputType="textCapWords"
+                android:maxLength="10"
+                android:textSize="24dip"
+                android:textStyle="bold" >
+
+                <requestFocus />
+            </EditText>
+            <LinearLayout
+
+                android:id="@+id/lyspTac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:padding="@dimen/_10sdp">
+
+                <Spinner
+                    style="@style/spinnerItemStyle"
+
+                    android:id="@+id/spiTkzng"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.65" />
+
+                <TextView
+                    android:fontFamily="@font/iran_yekan_bold"
+
+                    android:textSize="@dimen/_11sdp"
+                    android:id="@+id/txtsp2"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:text="پارتیشن" android:gravity="right|center_vertical"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center">
+
+
+
+            <Button
+                android:textSize="@dimen/_12sdp"
+                android:background="@drawable/circle_btn_gray"
+                android:id="@+id/btnExitRemot"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:text="انصراف" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"/>
+
+
+            <Button
+                android:textSize="@dimen/_12sdp"
+                android:background="@drawable/circle_btn_gray"
+                android:id="@+id/btnSaveRemot"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:text="ذخیره" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="smart.SmartSetup">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> -->
+    <!-- <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /> -->
+    <!-- <uses-permission android:name="android.permission.BLUETOOTH" /> -->
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_SCAN"
+        android:usesPermissionFlags="neverForLocation"
+        tools:targetApi="s" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:maxSdkVersion="30" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        android:maxSdkVersion="30" />
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        android:maxSdkVersion="30" />
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:maxSdkVersion="30" />
+
+    <application
+        android:name=".G"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <activity
+            android:name=".MGZ8.dialog_select_type_call_MGZ8"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".G4.ActivityRemotNameG4"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".G4.ActivityChargeG4"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".G4.ActivityTrigText"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".G4.ActivityListG4"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ActivityDeviceList1"
+            android:label="@string/select_device"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".G4.ActivitySmsNumberG4"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".G4.ActivityOutNameG4"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".G4.ActivityPhoneNumberG4"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".G4.ActivityWlNameG4"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".G4.ActivityZonNameG4"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".G4.ActivityPanelG4"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MG4.Activity_List_MG4"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MGZ8.Activity_List_MGZ8"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".G4.ActivityPaswordG4"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".G4.Edit.ActivityEditPhoneNumberG4"
+            android:theme="@style/NewDialog" />
+
+        <activity
+            android:name=".G4.Edit.ActivityEditSmsNumberG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".G4.Edit.ActivityEditPanelSettingG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".G4.Edit.ActivityEditTaimAlarmG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".G4.Edit.ActivityEditZonNameG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".G4.Edit.ActivityEditOutNameG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".G4.Edit.ActivityEditTrigNameG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".G4.Edit.ActivityEditRemotNameG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".G4.Edit.ActivityEditWlNameG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".G4.Edit.ActivitySendChargeG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".G4.Edit.ActivityEditChargeG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".Dialog_tabligh"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".ActivityMain"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MG4.About_System"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MGZ8.About_System"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MG4.Edit.ActivityEditTypeTrigMG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MGZ8.Edit.ActivityEditTypeTrigMGZ8"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MG4.Edit.ActivivtyEditselectTypeCall"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MGZ8.Edit.ActivivtyEditselectTypeCall"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MG4.Edit.ActivityEditSmsNumberMG4"
+            android:theme="@style/DialogEditSMS" />
+        <activity
+            android:name=".MGZ8.Edit.ActivityEditSmsNumberMGZ8"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MG4.ActivitySmsNumberMG4"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MGZ8.ActivitySmsNumberMGZ8"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MG4.ActivityPhoneNumberMG4"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MGZ8.ActivityPhoneNumberMGZ8"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MG4.ActivityChargeMG4"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MGZ8.ActivityChargeMGZ8"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MG4.Edit.ActivityEditChargeMG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MGZ8.Edit.ActivityEditChargeMGZ8"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MG4.ActivityOutNameMG4"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MGZ8.ActivityOutNameMGZ8"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MG4.Edit.ActivityEditOutNameMG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MGZ8.Edit.ActivityEditOutNameMGZ8"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MG4.ActivityPanelMG4"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MGZ8.ActivityPanelMGZ8"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MG4.Edit.ActivityEditpanelSettingMG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MGZ8.Edit.ActivityEditpanelSettingMGZ8"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MG4.ActivityPasswordMG4"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MGZ8.ActivityPasswordMGZ8"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MG4.ActivityRemoteNameMG4"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MGZ8.ActivityRemoteNameMGZ8"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MG4.Edit.ActivityEditRemotNameMG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MGZ8.Edit.ActivityEditRemotNameMGZ8"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MG4.Edit.ActivitySendShargeMG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MGZ8.Edit.ActivitySendShargeMGZ8"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MG4.Edit.ActivityEditTimeAlarmMG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MGZ8.Edit.ActivityEditTimeAlarmMGZ8"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MG4.ActivityWlNameMG4"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MGZ8.ActivityWlNameMGZ8"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MG4.Edit.ActivityEditWlNameMG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MGZ8.Edit.ActivityEditWlNameMGZ8"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MG4.ActivityZonNameMG4"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MGZ8.ActivityZonNameMGZ8"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MG4.Edit.ActivityEditZonNameMG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MGZ8.Edit.ActivityEditZonNameMGZ8"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MG4.Edit.ActivityEditPhoneNumberMG4"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MGZ8.Edit.ActivityEditPhoneNumberMGZ8"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MG4.Edit.Progress_dialog_wait"
+            android:label="لطفا صبر کنید..."
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MGZ8.Edit.Progress_dialog_wait"
+            android:label="لطفا صبر کنید..."
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MG4.Edit.Dialog_save_Pass"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MGZ8.Edit.Dialog_save_Pass"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MG4.Edit.Dialog_Close_app"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MGZ8.Edit.Dialog_Close_app"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MG4.Edit.Select_type_modelSim"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MGZ8.Edit.Select_type_modelSim"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MG4.Edit.Edit_Panel_Zon24"
+            android:theme="@style/NewDialog" />
+        <activity
+            android:name=".MGZ8.Edit.Edit_Panel_Zon24"
+            android:theme="@style/NewDialog" />
+
+        <meta-data
+            android:name="com.onesignal.NotificationOpened.DEFAULT"
+            android:value="DISABLE" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".G4.select_type_sim"
+            android:theme="@style/NewDialog" />
+    </application>
+
+</manifest>

@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layoutDirection="ltr"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@drawable/background">
+
+    
+<include layout="@layout/g4_custom_tolbar_gfour"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.1"
+        android:orientation="horizontal" android:background="#59a0f8">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="تک زنگ"
+            android:textColor="#ffffff"
+            android:textSize="16dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView10"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="گزارش"
+            android:textSize="16dip"
+            android:textStyle="bold" android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/TextView12"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15"
+            android:gravity="center"
+            android:text="کنترل"
+            android:textSize="16dip"
+            android:textStyle="bold" android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/TextView13"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.45"
+            android:gravity="center"
+            android:text="حافظه"
+            android:textSize="16dip"
+            android:textStyle="bold" android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:orientation="vertical" android:layout_weight="1">
+
+
+
+
+        <LinearLayout
+            android:id="@+id/layMemory1"
+            android:layout_marginBottom="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1"
+            android:orientation="horizontal"
+            android:background="@drawable/back_btn_clik1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+
+
+
+                <TextView
+                    android:id="@+id/txtTkzngMemory1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+
+
+
+                <TextView
+                    android:id="@+id/txtReportMemory1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center" >
+
+
+                <ImageView
+                    android:id="@+id/imgControlMemory1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_action_accept" android:visibility="invisible"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent" android:layout_weight="0.45">
+
+
+                <TextView
+                    android:paddingRight="5dp"
+                    android:id="@+id/txtMemory1"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="right|center_vertical"
+
+                    android:textColor="#ffffff"
+                    android:textSize="16dip" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+              >
+
+                <TextView
+                    android:textSize="16dp"
+                    android:id="@+id/textView1"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="4dp"
+                    android:text=":1"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+
+            android:id="@+id/layMemory2"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1"
+            android:orientation="horizontal" android:background="@drawable/back_btn_clik1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtTkzngMemory2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtReportMemory2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center" >
+
+
+                <ImageView
+                    android:id="@+id/imgControlMemory2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_action_accept" android:visibility="invisible"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent" android:layout_weight="0.45">
+
+                <TextView
+                    android:paddingRight="5dp"
+
+                    android:id="@+id/txtMemory2"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="right|center_vertical"
+
+                    android:textColor="#ffffff"
+                    android:textSize="16dip"
+                   />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+              >
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+
+                    android:paddingRight="4dp"
+                    android:id="@+id/TextView02"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:text=":2" android:textColor="#ffffff"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+
+            android:id="@+id/layMemory3"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1"
+            android:orientation="horizontal" android:background="@drawable/back_btn_clik1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtTkzngMemory3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtReportMemory3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center" >
+
+
+                <ImageView
+                    android:id="@+id/imgControlMemory3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_action_accept" android:visibility="invisible"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent" android:layout_weight="0.45">
+
+                <TextView
+                    android:paddingRight="5dp"
+
+                    android:id="@+id/txtMemory3"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="right|center_vertical"
+
+                    android:textColor="#ffffff"
+                    android:textSize="16dip"
+                   />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+             >
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+
+                    android:id="@+id/TextView03"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingRight="4dp"
+                    android:gravity="right|center_vertical"
+                    android:text=":3" android:textColor="#ffffff"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+
+            android:id="@+id/layMemory4"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1"
+            android:orientation="horizontal" android:background="@drawable/back_btn_clik1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtTkzngMemory4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtReportMemory4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center" >
+
+
+                <ImageView
+                    android:id="@+id/imgControlMemory4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_action_accept" android:visibility="invisible"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent" android:layout_weight="0.45">
+
+                <TextView
+                    android:paddingRight="5dp"
+
+                    android:id="@+id/txtMemory4"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="right|center_vertical"
+
+                    android:textColor="#ffffff"
+                    android:textSize="16dip"
+                   />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+
+                >
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:id="@+id/TextView04"
+                    android:layout_width="0dip"
+                    android:paddingRight="4dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:text=":4" android:textColor="#ffffff"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+
+            android:id="@+id/layMemory5"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1"
+            android:orientation="horizontal" android:background="@drawable/back_btn_clik1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtTkzngMemory5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtReportMemory5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center" >
+
+
+                <ImageView
+                    android:id="@+id/imgControlMemory5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_action_accept" android:visibility="invisible"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent" android:layout_weight="0.45">
+
+                <TextView
+                    android:paddingRight="5dp"
+
+                    android:id="@+id/txtMemory5"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="right|center_vertical"
+
+                    android:textColor="#ffffff"
+                    android:textSize="16dip"
+               />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+               >
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+
+                    android:paddingRight="4dp"
+                    android:id="@+id/TextView05"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:text=":5" android:textColor="#ffffff"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+
+            android:id="@+id/layMemory6"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1"
+            android:orientation="horizontal" android:background="@drawable/back_btn_clik1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtTkzngMemory6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtReportMemory6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center" >
+
+
+                <ImageView
+                    android:id="@+id/imgControlMemory6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_action_accept" android:visibility="invisible"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent" android:layout_weight="0.45">
+
+                <TextView
+                    android:paddingRight="5dp"
+
+                    android:id="@+id/txtMemory6"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="right|center_vertical"
+
+                    android:textColor="#ffffff"
+                    android:textSize="16dip"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:gravity="right|center_vertical"
+             >
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+
+                    android:paddingRight="4dp"
+                    android:id="@+id/TextView06"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:text=":6" android:textColor="#ffffff"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+
+            android:id="@+id/layMemory7"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1"
+            android:orientation="horizontal" android:background="@drawable/back_btn_clik1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtTkzngMemory7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtReportMemory7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center" >
+
+
+                <ImageView
+                    android:id="@+id/imgControlMemory7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_action_accept" android:visibility="invisible"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent" android:layout_weight="0.45">
+
+                <TextView
+                    android:paddingRight="5dp"
+
+                    android:id="@+id/txtMemory7"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="right|center_vertical"
+
+                    android:textColor="#ffffff"
+                    android:textSize="16dip"
+               />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                >
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+
+                    android:id="@+id/TextView07"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingRight="4dp"
+                    android:gravity="right|center_vertical"
+                    android:text=":7" android:textColor="#ffffff"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+
+            android:layout_marginBottom="5dp"
+
+            android:id="@+id/layMemory8"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1"
+            android:orientation="horizontal" android:background="@drawable/back_btn_clik1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtTkzngMemory8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtReportMemory8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center" >
+
+
+                <ImageView
+                    android:id="@+id/imgControlMemory8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_action_accept" android:visibility="invisible"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent" android:layout_weight="0.45">
+
+                <TextView
+                    android:paddingRight="5dp"
+
+                    android:id="@+id/txtMemory8"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="right|center_vertical"
+
+                    android:textColor="#ffffff"
+                    android:textSize="16dip"
+                   />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+             >
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+
+                    android:paddingRight="4dp"
+                    android:id="@+id/TextView08"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:text=":8" android:textColor="#ffffff"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+android:layout_marginBottom="5dp"
+            android:id="@+id/layMemory9"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1"
+            android:orientation="horizontal" android:background="@drawable/back_btn_clik1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtTkzngMemory9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtReportMemory9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center" >
+
+
+                <ImageView
+                    android:id="@+id/imgControlMemory9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_action_accept" android:visibility="invisible"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent" android:layout_weight="0.45">
+
+                <TextView
+                    android:paddingRight="5dp"
+
+                    android:id="@+id/txtMemory9"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="right|center_vertical"
+
+                    android:textColor="#ffffff"
+                    android:textSize="16dip"
+                  />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+             >
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+
+                    android:paddingRight="4dp"
+                    android:id="@+id/TextView09"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:text=":9" android:textColor="#ffffff"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+
+            android:id="@+id/layMemory10"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1"
+            android:orientation="horizontal" android:background="@drawable/back_btn_clik1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtTkzngMemory10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtReportMemory10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center" >
+
+
+                <ImageView
+                    android:id="@+id/imgControlMemory10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_action_accept" android:visibility="invisible"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent" android:layout_weight="0.4">
+
+                <TextView
+                    android:paddingRight="5dp"
+android:text="dfdfdf"
+                    android:id="@+id/txtMemory10"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="right|center_vertical"
+
+                    android:textColor="#ffffff"
+                    android:textSize="16dip"
+                 />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                >
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+
+                    android:paddingRight="4dp"
+                    android:id="@+id/TextView11"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:text=":10" android:textColor="#ffffff"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

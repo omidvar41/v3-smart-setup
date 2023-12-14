@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+    android:layoutDirection="ltr"
+
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@drawable/background" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/mg4_custom_toolbar"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:orientation="vertical" android:layout_weight="0.1">
+
+        <LinearLayout
+android:id="@+id/lySelectTypeSim"
+            android:gravity="center"
+            android:clickable="true"
+            android:background="@drawable/back_btn_clik1"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.5" >
+
+
+
+            <LinearLayout
+
+                android:layout_width="0dip"
+
+                android:layout_height="fill_parent"
+                android:layout_weight="0.05"
+                android:gravity="center" >
+
+
+            <TextView
+                android:textSize="20dp"
+                android:textColor="#fff"
+android:gravity="center"
+                android:text="دائمی"
+                android:id="@+id/modelsim"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+android:gravity="center"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.1"
+           >
+
+                <TextView
+                   android:id="@+id/simcardName"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="3dip"
+                    android:textSize="20dip" android:textColor="#ffffff"/>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:gravity="right|center_vertical" >
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="3dip"
+                        android:text=" سیمکارت:"
+                        android:textColor="#ffffff"
+                        android:textSize="18dip" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layChekCharg"
+
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:orientation="vertical" android:layout_weight="0.1">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.5" >
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/layCodeChekCharge"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.9"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/txtCodeChekCharge"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="3dip"
+                    android:textSize="20dip" android:textColor="#8b8b8b"/>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.4"
+                    android:gravity="right|center_vertical" >
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="9dip"
+                        android:text="فرمول کنترل شارژ:"
+                        android:textColor="#949494"
+                        android:textSize="18dip" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:orientation="vertical"
+        android:layout_weight="0.7">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+           >
+
+
+
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_weight="0.5"
+    android:layout_height="match_parent">
+            <info.hoang8f.widget.FButton
+                android:layout_margin="5dp"
+                android:id="@+id/btnChekCharge"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:text="کنترل شارژ" android:textColor="#000000"/>
+
+        </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent">
+            <info.hoang8f.widget.FButton
+                android:layout_height="50dp"
+
+                android:layout_margin="5dp"
+                android:id="@+id/btnAddCharge"
+                android:layout_width="0dip"
+
+                android:layout_weight="0.5"
+                android:text="افزایش شارژ" android:textColor="#000000"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:gravity="center|top"
+            android:orientation="vertical" android:layout_weight="0.85">
+
+
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/txtCusd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:paddingRight="3dip"
+                android:textSize="20dip"
+                android:textColor="#969696"/>
+            <ProgressBar
+                android:visibility="invisible"
+                android:id="@+id/progressbar"
+                android:layout_marginBottom="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/txtWaith"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:paddingRight="3dip"
+                android:textSize="20dip"
+                android:textColor="#969696"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

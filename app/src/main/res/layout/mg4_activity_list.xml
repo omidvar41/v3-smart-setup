@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layoutDirection="ltr"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#0050bc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="smart.SmartSetup.MG4.Activity_List_MGZ8">
+
+  <include layout="@layout/mg4_custom_toolbar"/>
+
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:orientation="vertical">
+
+
+
+
+
+        <info.hoang8f.widget.FButton
+android:soundEffectsEnabled="true"
+
+            android:focusable="true"
+            android:clickable="true"
+            android:id="@+id/access"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text=" حافظه 1 تا 10 (پیامک)"
+            android:textSize="18dp" />
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/phone_number"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="حافظه 11 تا 20 (تماس)"
+            android:textSize="18dp" />
+
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/out_name"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text=" خروجی ها"
+            android:textSize="18dp" />
+
+
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/charge"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="فرمول شارژ"
+            android:textSize="18dp" />
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/pasword"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="تغییر رمز"
+            android:textSize="18dp" />
+
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/remot_name"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="نام ریموتها"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/zon_name"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="نام زون ها"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/wl_name"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="نام سنسورهای بی سیم"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/setting"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="تنظیمات"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/goAbout"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="درباره دستگاه"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

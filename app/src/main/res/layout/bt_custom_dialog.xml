@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="120dp"
+    android:layoutDirection="ltr"
+
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/txt_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="برنامه برای روشن شدن بلوتوث اجازه میگیرد.اجازه میدهید؟"
+        android:textColor="#c1302d2d"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:background="@drawable/button"
+            android:clickable="true"
+
+            android:text="بلی"
+            android:textColor="#af53abc6"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button"
+            android:clickable="true"
+            android:text="خیر"
+            android:textColor="#af53abc6"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

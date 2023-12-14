@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityMain" android:background="#0050bc">
+
+    <include layout="@layout/g4_custom_tolbar_gfour"/>
+
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:orientation="vertical">
+
+
+
+
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginBottom="5dp"
+
+            android:id="@+id/access"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text=" حافظه 1 تا 10 (پیامک)"
+            android:textSize="18dp" />
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginBottom="5dp"
+
+            android:id="@+id/phone_number"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="حافظه 11 تا 20 (تماس)"
+            android:textSize="18dp" />
+
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginBottom="5dp"
+
+            android:id="@+id/out_name"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text=" خروجی ها"
+            android:textSize="18dp" />
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginBottom="5dp"
+
+            android:id="@+id/trig_text"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="تحریکها"
+            android:textSize="18dp" />
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginBottom="5dp"
+
+            android:id="@+id/charge"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="فرمول شارژ"
+            android:textSize="18dp" />
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginBottom="5dp"
+
+            android:id="@+id/pasword"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="تغییر رمز"
+            android:textSize="18dp" />
+
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginBottom="5dp"
+
+            android:id="@+id/remot_name"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="نام ریموتها"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginBottom="5dp"
+
+            android:id="@+id/zon_name"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="نام زون ها"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+        <info.hoang8f.widget.FButton
+            android:layout_marginBottom="5dp"
+
+            android:id="@+id/wl_name"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="نام سنسورهای بی سیم"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/tak"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:text="تنظیمات پنل"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</LinearLayout>

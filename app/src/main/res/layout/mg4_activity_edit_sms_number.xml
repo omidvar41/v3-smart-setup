@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layoutDirection="ltr"
+
+    android:layout_height="wrap_content"
+    android:orientation="vertical" android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent" android:layout_weight="0.5">
+
+
+
+
+            <TextView
+                android:id="@+id/txtPhoneCn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingRight="3dip"
+                android:text="0/16"
+                android:textSize="18dip" android:layout_margin="5dip"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent" android:layout_weight="0.5" android:gravity="right">
+
+
+            <TextView
+                android:id="@+id/txtMamoryEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingRight="3dip"
+                android:text="Mamory"
+                android:textSize="18dip" android:layout_margin="5dip"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="256dip"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_gravity="center">
+
+
+
+
+        <EditText
+            android:id="@+id/edtPhoneNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dip"
+
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="16"
+            android:textSize="24dip" android:hint="شماره را وارد کنید">
+
+
+        </EditText>
+
+        <Button
+            android:background="@drawable/mack_button_select"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btnsendSmsResult"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="ارسال پیامک آزمایشی"
+            android:textColorHint="@color/colorPrimary" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:gravity="right|center_vertical" android:layout_margin="5dip">
+
+            <LinearLayout
+                android:id="@+id/lycheakbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip">
+
+
+                <CheckBox
+                    android:text="کنترل با پیامک"
+                    android:id="@+id/chkSmsControl"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content" android:layout_weight="0.65"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyspRep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:gravity="right|center_vertical" android:layout_margin="5dip">
+
+                <Spinner
+                    style="@style/spinnerItemStyle"
+
+                    android:id="@+id/spiReport"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.65" />
+
+
+                <TextView
+                    android:textSize="12dp"
+                    android:id="@+id/txtsp1"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:text="دریافت گزارش" android:gravity="right|center_vertical"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyspTac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:gravity="right|center_vertical" android:layout_margin="5dip">
+
+                <Spinner
+style="@style/spinnerItemStyle"
+
+                    android:id="@+id/spiTkzng"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.65" />
+
+                <TextView
+                    android:textSize="11dp"
+                    android:id="@+id/txtsp2"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:text="کنترل با تک زنگ" android:gravity="right|center_vertical"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center">
+
+
+
+
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="انصراف" />
+
+
+
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="ذخیره" />
+
+    </LinearLayout>
+
+</LinearLayout>

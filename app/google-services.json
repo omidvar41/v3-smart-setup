@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "652865305930",
+    "project_id": "smart-setup-dc3c3",
+    "storage_bucket": "smart-setup-dc3c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652865305930:android:2bb416508d00930cb055b3",
+        "android_client_info": {
+          "package_name": "ir.smartalarm.Setup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652865305930-6k1pl3c2hjnb60sban9mcp97ni3sf71h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ir.smartalarm.Setup",
+            "certificate_hash": "498954c79bd29dc9b612a7b80a82ae66230da2ae"
+          }
+        },
+        {
+          "client_id": "652865305930-e9sqrpng4apg8123nm4gh5sg4om0p1q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuqfmvxPGuiMBhq94KPKPgaBCXtqdjivM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652865305930-e9sqrpng4apg8123nm4gh5sg4om0p1q1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

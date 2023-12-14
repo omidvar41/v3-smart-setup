@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+
+        android:layout_marginTop="3dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/btn_left_blu_circle"
+    android:layout_marginBottom="3dp"
+    android:orientation="horizontal"
+    android:minHeight="@dimen/_50sdp"
+    android:gravity="center"
+android:id="@+id/layZon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/ImageDingDang"
+
+
+            android:padding="@dimen/_2sdp"
+            android:gravity="center"
+
+
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:fontFamily="@font/iran_yekan_bold"
+            android:id="@+id/txtMode"
+
+            android:padding="@dimen/_2sdp"
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="مد"
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:fontFamily="@font/iran_yekan_bold"
+            android:id="@+id/txtName"
+
+            android:padding="@dimen/_2sdp"
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="اسم"
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+
+   <LinearLayout
+       android:layout_margin="@dimen/_3sdp"
+       android:gravity="end|center"
+
+       android:orientation="horizontal"
+       android:layout_weight="0.1"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:fontFamily="@font/iran_yekan_bold"
+           android:id="@+id/txtNumber"
+           android:layout_marginEnd="@dimen/_4sdp"
+
+           android:padding="@dimen/_2sdp"
+           android:gravity="center"
+           android:textSize="@dimen/_12sdp"
+           android:textStyle="bold"
+           android:textColor="@color/white"
+           android:text="شماره"
+
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+
+       <View
+           android:id="@+id/viewStatus"
+           android:background="@drawable/circle_red"
+           android:layout_width="@dimen/_20sdp"
+           android:layout_height="@dimen/_20sdp"/>
+   </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

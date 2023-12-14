@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:titleTextColor="@color/black"
+
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+
+
+    android:layout_height="wrap_content"
+    android:background="#005a7bc4">
+     <LinearLayout
+         android:orientation="vertical"
+         android:layout_width="120dp"
+         android:layout_height="70dp">
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:id="@+id/title_paired_devices"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_paired_devices"
+        android:visibility="gone"
+
+        android:textColor="#000000"
+        android:paddingLeft="5dp"
+    />
+    <TextView android:id="@+id/title_new_devices"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="@string/title_other_devices"
+        android:visibility="gone"
+
+        android:textColor="#000000"
+        android:paddingLeft="5dp"
+    />
+
+    <ProgressBar
+
+        android:id="@+id/progress"
+        style="@style/Widget.AppCompat.ProgressBar"
+
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+
+
+    <ListView android:id="@+id/new_devices"
+
+android:background="#966371ec"
+android:clickable="false"
+        android:layout_gravity="center"
+            android:layout_marginRight="200dp"
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+    >
+        <!-- Preview: listitem=@android:layout/simple_list_item_1 -->
+
+
+    </ListView>
+
+
+
+    </LinearLayout>
+</LinearLayout>

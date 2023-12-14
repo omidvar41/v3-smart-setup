@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="ltr"
+    android:id="@+id/linEditBase"
+    android:background="#0050BB"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <LinearLayout
+
+        android:id="@+id/linTitle"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_gravity="center">
+
+
+
+
+
+        <TextView
+            android:textColor="@color/black"
+                android:visibility="gone"
+            android:background="@drawable/circle_btn_gray"
+            android:padding="@dimen/_10sdp"
+            android:fontFamily="@font/iran_yekan_bold"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+
+            android:gravity="center"
+            android:id="@+id/btnSave"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:text="ذخیره" />
+
+
+        <View
+    android:layout_weight="0.1"
+    android:layout_width="0dp"
+    android:layout_height="@dimen/_30sdp"/>
+
+        <TextView
+             android:visibility="gone"
+            android:background="@drawable/circle_btn_gray"
+            android:padding="@dimen/_10sdp"
+            android:fontFamily="@font/iran_yekan_bold"
+            android:textSize="@dimen/_14sdp"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/_10sdp"
+
+            android:textColor="@color/black"
+            android:id="@+id/btnExit"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:text="انصراف" />
+        <TextView
+android:background="@drawable/border_white"
+            android:layout_marginRight="@dimen/_10sdp"
+              android:padding="@dimen/_10sdp"
+            android:fontFamily="@font/iran_yekan_extra_bold"
+            android:textSize="@dimen/_14sdp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:id="@+id/btnEdit"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:text="ویرایش" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/elevation"
+        app:layout_constraintTop_toBottomOf="@+id/linTitle"
+        android:background="@drawable/toolbar_dropshadow"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_5sdp"/>
+
+    <LinearLayout
+        android:id="@+id/linEditText"
+        app:layout_constraintTop_toBottomOf="@+id/elevation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent" android:layout_weight="0.5">
+
+
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/txtPhoneCn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:paddingRight="3dip"
+                android:text="0/16"
+                android:textSize="18dip"
+             />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent" android:layout_weight="0.5" android:gravity="right">
+
+
+            <TextView
+                android:textColor="@color/white"
+
+                android:id="@+id/txtMamoryEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingRight="3dip"
+                android:text="Mamory"
+                android:textSize="18dip" android:layout_margin="5dip"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        app:layout_constraintTop_toBottomOf="@+id/linEditText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" android:layout_gravity="center">
+
+
+
+
+                <EditText
+                    android:id="@+id/edtPhoneNumber"
+                    android:layout_width="fill_parent"
+                    android:fontFamily="@font/iran_yekan_bold"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5dip"
+
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                            android:backgroundTint="@color/white"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:maxLength="16"
+                    android:textSize="@dimen/_20sdp" android:hint="شماره را وارد کنید"
+                    tools:ignore="UnusedAttribute">
+
+
+                </EditText>
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/linVoiceCall"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layoutDirection="rtl"
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.1"
+                        android:layout_height="wrap_content">
+                        <CheckBox
+                            android:fontFamily="@font/iran_yekan_bold"
+
+                            android:text="تماس صوتی پارتیشن یک"
+                            android:id="@+id/chxCallP1"
+                            android:textColor="@color/white"
+                            android:buttonTint="@color/white"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:ignore="UnusedAttribute" />
+                        <CheckBox
+                            android:fontFamily="@font/iran_yekan_bold"
+                            android:layoutDirection="rtl"
+                            android:text="تماس صوتی پارتیشن دو"
+                            android:id="@+id/chxCallP2"
+                            android:textColor="@color/white"
+                            android:buttonTint="@color/white"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:ignore="UnusedAttribute" />
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="right|center_vertical"
+
+                    android:layout_margin="5dip">
+                    <View
+                        android:id="@+id/borderTopControlSms"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:background="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"/>
+
+                    <TextView
+
+                        android:fontFamily="@font/iran_yekan_extra_bold"
+                        android:text="کنترل پیامک"
+                        android:textColor="@color/white"
+                        android:id="@+id/txtControlSms"
+                        android:textSize="@dimen/_14sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <LinearLayout
+                        android:layoutDirection="rtl"
+
+                        android:id="@+id/lycheakbox"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dip">
+
+
+                        <CheckBox
+                            android:textColor="@color/white"
+                            android:buttonTint="@color/white"
+                            tools:ignore="UnusedAttribute"
+                            android:fontFamily="@font/iran_yekan_bold"
+                            android:text="کنترل پارتیشن یک"
+                            android:id="@+id/chxP1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+
+
+                        <CheckBox
+                            android:textColor="@color/white"
+                            android:buttonTint="@color/white"
+                            tools:ignore="UnusedAttribute"
+                            android:fontFamily="@font/iran_yekan_bold"
+                            android:text="کنترل پارتیشن دو"
+                            android:id="@+id/chxP2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                             />
+
+
+                        <CheckBox
+                            android:textColor="@color/white"
+                            android:buttonTint="@color/white"
+                            tools:ignore="UnusedAttribute"
+                            android:fontFamily="@font/iran_yekan_bold"
+                            android:text="کنترل خروجی ها"
+                            android:id="@+id/chxControl"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                             />
+
+
+                        <View
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:id="@+id/borderTopReportSms"
+                            android:background="#fff"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_1sdp"/>
+
+                    </LinearLayout>
+
+
+                        <TextView
+                            android:fontFamily="@font/iran_yekan_extra_bold"
+                            android:text="گزارش با پیامک"
+                            android:textColor="@color/white"
+                            android:id="@+id/txtReportSms"
+                            android:textSize="@dimen/_13sdp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    <LinearLayout
+                        android:layoutDirection="rtl"
+
+                        android:id="@+id/linReportSms"
+                        android:orientation=
+                            "horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.1"
+                            android:layout_height="wrap_content">
+                            <CheckBox
+                                android:textColor="@color/white"
+                                android:buttonTint="@color/white"
+                                tools:ignore="UnusedAttribute"
+                                android:fontFamily="@font/iran_yekan_bold"
+                                android:text="فعال و غیر فعال کردن پارتیشن یک"
+                                android:id="@+id/chxEnDisP1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <CheckBox
+                                android:textColor="@color/white"
+                                android:buttonTint="@color/white"
+                                tools:ignore="UnusedAttribute"
+                                android:fontFamily="@font/iran_yekan_bold"
+                                android:text="هشدار های پارتیشن یک"
+                                android:id="@+id/chxAlarmP1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <CheckBox
+                                android:textColor="@color/white"
+                                android:buttonTint="@color/white"
+                                tools:ignore="UnusedAttribute"
+                                android:fontFamily="@font/iran_yekan_bold"
+                                android:text="هشدار های ناحیه مشترک"
+                                android:id="@+id/chxCommonArea"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <CheckBox
+                                android:textColor="@color/white"
+                                android:buttonTint="@color/white"
+                                tools:ignore="UnusedAttribute"
+                                android:fontFamily="@font/iran_yekan_bold"
+                                android:text="گزارشات سیستمی"
+                                android:id="@+id/chxSystemReports"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                />
+                            <CheckBox
+                                android:textColor="@color/white"
+                                android:buttonTint="@color/white"
+                                tools:ignore="UnusedAttribute"
+                                android:fontFamily="@font/iran_yekan_bold"
+                                android:text="برق شهر"
+                                android:visibility="gone"
+                                android:id="@+id/chxElectCity"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                />
+                            <CheckBox
+                                android:textColor="@color/white"
+                                android:buttonTint="@color/white"
+                                tools:ignore="UnusedAttribute"
+                                android:fontFamily="@font/iran_yekan_bold"
+                                android:text="فیوز AUX"
+                                android:id="@+id/chxAux"
+                                android:visibility="gone"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:orientation="vertical"
+                            android:layout_weight="0.1"
+                            android:layout_height="wrap_content">
+                            <CheckBox
+                                android:textColor="@color/white"
+                                android:buttonTint="@color/white"
+                                tools:ignore="UnusedAttribute"
+                                android:fontFamily="@font/iran_yekan_bold"
+                                android:text="فعال و غیر فعال کردن پارتیشن دو"
+                                android:id="@+id/chxEnDisP2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <CheckBox
+                                android:textColor="@color/white"
+                                android:buttonTint="@color/white"
+                                tools:ignore="UnusedAttribute"
+                                android:fontFamily="@font/iran_yekan_bold"
+                                android:text="هشدارهای پارتیشن دو"
+                                android:id="@+id/chxAlarmP2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <CheckBox
+                                android:textColor="@color/white"
+                                android:buttonTint="@color/white"
+                                tools:ignore="UnusedAttribute"
+                                android:fontFamily="@font/iran_yekan_bold"
+                                android:text="هشدار های ناحیه دوگانه"
+                                android:id="@+id/chxTwoArea"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <CheckBox
+                                android:textColor="@color/white"
+                                android:buttonTint="@color/white"
+                                tools:ignore="UnusedAttribute"
+                                android:visibility="gone"
+                                android:fontFamily="@font/iran_yekan_bold"
+                                android:text="قطع بلندگو"
+                                android:id="@+id/chxCutVoice"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                />
+                            <CheckBox
+                                android:visibility="gone"
+                                android:textColor="@color/white"
+                                android:buttonTint="@color/white"
+                                tools:ignore="UnusedAttribute"
+                                android:fontFamily="@font/iran_yekan_bold"
+                                android:text="قطع خط‌ تلفن"
+                                android:id="@+id/chxCutPhone"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:id="@+id/borderTopMissCall"
+                        android:background="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"/>
+
+                    <LinearLayout
+                        android:id="@+id/lyspTac"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:gravity="right|center_vertical" android:layout_margin="5dip">
+
+                        <Spinner
+                            style="@style/spinnerItemStyle"
+
+
+                            android:id="@+id/spiTkzng"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.65" />
+
+                        <TextView
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_13sdp"
+                            android:id="@+id/txtsp2"
+                            android:fontFamily="@font/iran_yekan_bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="کنترل با تک زنگ"
+                            android:gravity="right|center_vertical"/>
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <View
+        android:visibility="gone"
+        android:id="@+id/viewEdit"
+        app:layout_constraintTop_toBottomOf="@id/elevation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

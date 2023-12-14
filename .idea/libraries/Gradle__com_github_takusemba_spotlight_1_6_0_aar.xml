@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.takusemba:spotlight:1.6.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/741d0ef88483ccfae7115cb5b901061d/transformed/jetified-spotlight-1.6.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/741d0ef88483ccfae7115cb5b901061d/transformed/jetified-spotlight-1.6.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/741d0ef88483ccfae7115cb5b901061d/transformed/jetified-spotlight-1.6.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.takusemba/spotlight/1.6.0/87265a726105e175b18bdf5ea0c16001b470058c/spotlight-1.6.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.takusemba/spotlight/1.6.0/73c4cbd9a6f30f53bcae5c96bd2a2284e656cd5c/spotlight-1.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

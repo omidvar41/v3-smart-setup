@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layoutDirection="ltr"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+<include layout="@layout/mg4_custom_toolbar"/>
+
+
+
+
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:orientation="vertical" android:layout_weight="0.9">
+
+        <LinearLayout
+android:layout_marginBottom="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1">
+            <LinearLayout
+                android:id="@+id/typetriger"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/back_btn_clik1">
+
+
+
+                <LinearLayout
+                    android:background="#975182d7"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtTrtiger"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="3dip"
+                        android:textColor="#ffffff"
+                        android:textSize="20dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="#975182d7"
+
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.35"
+                    android:gravity="right|center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:paddingRight="5dp"
+                        android:textStyle="bold"
+                        android:id="@+id/triger"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="تحریک :"
+                        android:textColor="#ffffff"
+                        android:textSize="24dip" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1">
+            <LinearLayout
+                android:id="@+id/laycitycode"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/back_btn_clik1">
+
+
+
+                <LinearLayout
+                    android:background="#975182d7"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtcitycode"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="3dip"
+                        android:textColor="#ffffff"
+                        android:textSize="20dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="#975182d7"
+
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.35"
+                    android:gravity="right|center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:paddingRight="5dp"
+
+                        android:textStyle="bold"
+                        android:id="@+id/citycodelablw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="کد شهر :"
+                        android:textColor="#ffffff"
+                        android:textSize="24dip" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1">
+
+            <info.hoang8f.widget.FButton
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:text="Test"
+                android:textColor="#fff"
+                android:id="@+id/test11"
+                android:layout_width="60dip"
+                android:layout_height="fill_parent" />
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/layMemory11"
+
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:background="@drawable/back_btn_clik1" android:layout_weight="0.8">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtMemory11"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="3dip"
+                        android:textColor="#ffffff"
+                        android:textSize="20dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.35"
+                    android:gravity="right|center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:paddingRight="5dp"
+android:textStyle="bold"
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="حافظه11 :"
+                        android:textColor="#ffffff"
+                        android:textSize="18dip" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1">
+
+
+
+            <info.hoang8f.widget.FButton
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:text="Test"
+                android:layout_marginTop="1.5dp"
+                android:layout_marginBottom="1.5dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:textColor="#fff"
+                android:id="@+id/test12"
+                android:layout_width="60dip"
+                android:layout_height="fill_parent" />
+
+
+
+
+            <LinearLayout
+                android:id="@+id/layMemory12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/back_btn_clik1">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtMemory12"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="3dip"
+                        android:textColor="#ffffff"
+                        android:textSize="20dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.35"
+                    android:gravity="right|center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:paddingRight="5dp"
+                        android:textStyle="bold"
+
+                        android:id="@+id/TextView01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="حافظه12 :"
+                        android:textColor="#ffffff"
+                        android:textSize="18dip" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+
+
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1">
+
+
+            <info.hoang8f.widget.FButton
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:text="Test"
+                android:layout_marginTop="1.5dp"
+                android:layout_marginBottom="1.5dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:textColor="#fff"
+                android:id="@+id/test13"
+                android:layout_width="60dip"
+                android:layout_height="fill_parent"/>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/layMemory13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/back_btn_clik1">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtMemory13"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="3dip"
+                        android:textColor="#ffffff"
+                        android:textSize="20dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.35"
+                    android:gravity="right|center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:paddingRight="5dp"
+                        android:textStyle="bold"
+                        android:id="@+id/TextView02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="حافظه13 :"
+                        android:textColor="#ffffff"
+                        android:textSize="18dip" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1">
+
+
+
+            <info.hoang8f.widget.FButton
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:text="Test"
+                android:layout_marginTop="1.5dp"
+                android:layout_marginBottom="1.5dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:textColor="#fff"
+                android:id="@+id/test14"
+                android:layout_width="60dip"
+                android:layout_height="fill_parent" />
+
+
+
+
+            <LinearLayout
+                android:id="@+id/layMemory14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/back_btn_clik1">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtMemory14"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="3dip"
+                        android:textColor="#ffffff"
+                        android:textSize="20dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.35"
+                    android:gravity="right|center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:paddingRight="5dp"
+                        android:textStyle="bold"
+
+                        android:id="@+id/TextView03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="حافظه14 :"
+                        android:textSize="18dip" android:textColor="#ffffff"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1">
+
+
+            <info.hoang8f.widget.FButton
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:text="Test"
+                android:layout_marginTop="1.5dp"
+                android:layout_marginBottom="1.5dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:textColor="#fff"
+                android:id="@+id/test15"
+                android:layout_width="60dip"
+                android:layout_height="fill_parent"/>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/layMemory15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/back_btn_clik1">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtMemory15"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="3dip"
+                        android:textColor="#ffffff"
+                        android:textSize="20dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.35"
+                    android:gravity="right|center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:paddingRight="5dp"
+                        android:textStyle="bold"
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="حافظه15 :"
+                        android:textColor="#ffffff"
+                        android:textSize="18dip" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1">
+
+
+            <info.hoang8f.widget.FButton
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:text="Test"
+                android:textColor="#fff"
+                android:layout_marginTop="1.5dp"
+                android:layout_marginBottom="1.5dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:id="@+id/test16"
+                android:layout_width="60dip"
+                android:layout_height="fill_parent"/>
+
+            <LinearLayout
+                android:id="@+id/layMemory16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/back_btn_clik1">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtMemory16"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="3dip"
+                        android:textColor="#ffffff"
+                        android:textSize="20dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.35"
+                    android:gravity="right|center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:paddingRight="5dp"
+                        android:textStyle="bold"
+                        android:id="@+id/TextView05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="حافظه16 :"
+                        android:textColor="#ffffff"
+                        android:textSize="18dip" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1">
+
+
+            <info.hoang8f.widget.FButton
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:text="Test"
+                android:layout_marginTop="1.5dp"
+                android:layout_marginBottom="1.5dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:textColor="#fff"
+                android:id="@+id/test17"
+                android:layout_width="60dip"
+                android:layout_height="fill_parent" />
+
+
+
+            <LinearLayout
+                android:id="@+id/layMemory17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/back_btn_clik1">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtMemory17"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="3dip"
+                        android:textColor="#ffffff"
+                        android:textSize="20dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.35"
+                    android:gravity="right|center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:paddingRight="5dp"
+                        android:textStyle="bold"
+                        android:id="@+id/TextView06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="حافظه17 :"
+                        android:textColor="#ffffff"
+                        android:textSize="18dip" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1">
+
+            <info.hoang8f.widget.FButton
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:text="Test"
+                android:layout_marginTop="1.5dp"
+                android:layout_marginBottom="1.5dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:textColor="#fff"
+                android:id="@+id/test18"
+                android:layout_width="60dip"
+                android:layout_height="fill_parent" />
+
+
+
+
+            <LinearLayout
+                android:id="@+id/layMemory18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/back_btn_clik1">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtMemory18"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="3dip"
+                        android:textColor="#ffffff"
+                        android:textSize="20dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.35"
+                    android:gravity="right|center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:paddingRight="5dp"
+                        android:textStyle="bold"
+                        android:id="@+id/TextView07"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="حافظه18 :"
+                        android:textColor="#ffffff"
+                        android:textSize="18dip" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1"
+            android:orientation="horizontal">
+
+
+
+                <info.hoang8f.widget.FButton
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    android:text="Test"
+                    android:textColor="#fff"
+                    android:layout_marginTop="1.5dp"
+                    android:layout_marginBottom="1.5dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:id="@+id/test19"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent" />
+
+
+
+
+            <LinearLayout
+                android:id="@+id/layMemory19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/back_btn_clik1">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtMemory19"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="3dip"
+                        android:textColor="#ffffff"
+                        android:textSize="20dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.35"
+                    android:gravity="right|center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:paddingRight="5dp"
+                        android:textStyle="bold"
+                        android:id="@+id/TextView08"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="حافظه19 :"
+                        android:textColor="#ffffff"
+                        android:textSize="18dip" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.1">
+
+
+
+            <info.hoang8f.widget.FButton
+                android:textStyle="bold"
+                android:text="Test"
+
+                android:layout_marginTop="1.5dp"
+                android:layout_marginBottom="1.5dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:textColor="#fff"
+                android:visibility="gone"
+                android:id="@+id/test20"
+                android:layout_width="60dip"
+                android:layout_height="fill_parent" />
+
+
+
+
+            <LinearLayout
+                android:id="@+id/layMemory20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/back_btn_clik1">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtMemory20"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="3dip"
+                        android:textColor="#ffffff"
+                        android:textSize="20dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.35"
+                    android:gravity="right|center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:paddingRight="5dp"
+                        android:textStyle="bold"
+                        android:id="@+id/TextView09"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="حافظه20 :"
+                        android:textColor="#ffffff"
+                        android:textSize="18dip" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

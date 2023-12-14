@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layoutDirection="ltr"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@drawable/background">
+
+
+
+<include layout="@layout/g4_custom_tolbar_gfour"/>
+
+
+
+
+            <LinearLayout
+                android:padding="5dp"
+
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:orientation="vertical" android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip" android:layout_weight="0.125" android:gravity="right|center_vertical">
+
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/layWlName1"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8" android:background="@drawable/back_btn_clik1" android:visibility="invisible">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.7"
+                            android:orientation="vertical" android:gravity="right|center_vertical">
+
+                            <TextView
+                                android:id="@+id/txtWlName1"
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:gravity="right|center_vertical"
+                                android:paddingRight="3dip"
+                                android:textColor="#ffffff"
+                                android:textSize="18dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:orientation="vertical" android:gravity="right|center_vertical">
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:paddingRight="4dp"
+                                android:id="@+id/textView1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="بیسیم1 :" android:textColor="#ffffff"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="5dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip" android:layout_weight="0.125" android:gravity="right|center_vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/layWlName2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" android:background="@drawable/back_btn_clik1" android:visibility="invisible">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.7"
+                            android:orientation="vertical" android:gravity="right|center_vertical">
+
+                            <TextView
+                                android:id="@+id/txtWlName2"
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:gravity="right|center_vertical"
+                                android:paddingRight="3dip"
+                                android:textColor="#ffffff"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="right|center_vertical"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:paddingRight="4dp"
+                                android:id="@+id/TextView01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="بیسیم2 :"
+                                android:textColor="#ffffff" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="5dp"
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip" android:layout_weight="0.125" android:gravity="right|center_vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/layWlName3"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8" android:background="@drawable/back_btn_clik1" android:visibility="invisible">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.7"
+                            android:orientation="vertical" android:gravity="right|center_vertical">
+
+                            <TextView
+                                android:id="@+id/txtWlName3"
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:gravity="right|center_vertical"
+                                android:paddingRight="3dip"
+                                android:textColor="#ffffff"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="right|center_vertical"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:paddingRight="4dp"
+                                android:id="@+id/TextView02"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="بیسیم3 :"
+                                android:textColor="#ffffff" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="5dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip" android:layout_weight="0.125" android:gravity="right|center_vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/layWlName4"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8" android:background="@drawable/back_btn_clik1" android:visibility="invisible">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.7"
+                            android:orientation="vertical" android:gravity="right|center_vertical">
+
+                            <TextView
+                                android:id="@+id/txtWlName4"
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:gravity="right|center_vertical"
+                                android:paddingRight="3dip"
+                                android:textColor="#ffffff"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="right|center_vertical"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:paddingRight="4dp"
+                                android:id="@+id/TextView03"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="بیسیم4 :"
+                                android:textColor="#ffffff" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip" android:layout_weight="0.125" android:gravity="right|center_vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/layWlName5"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8" android:background="@drawable/back_btn_clik1" android:visibility="invisible">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.7"
+                            android:orientation="vertical" android:gravity="right|center_vertical">
+
+                            <TextView
+                                android:id="@+id/txtWlName5"
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:gravity="right|center_vertical"
+                                android:paddingRight="3dip"
+                                android:textColor="#ffffff"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="right|center_vertical"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:paddingRight="4dp"
+                                android:id="@+id/TextView04"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="بیسیم5 :"
+                                android:textColor="#ffffff" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="5dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip" android:layout_weight="0.125" android:gravity="right|center_vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/layWlName6"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8" android:background="@drawable/back_btn_clik1" android:visibility="invisible">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.7"
+                            android:orientation="vertical" android:gravity="right|center_vertical">
+
+                            <TextView
+                                android:id="@+id/txtWlName6"
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:gravity="right|center_vertical"
+                                android:paddingRight="3dip"
+                                android:textColor="#ffffff"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="right|center_vertical"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:paddingRight="4dp"
+                                android:id="@+id/TextView05"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="بیسیم6 :"
+                                android:textColor="#ffffff" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="5dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip" android:layout_weight="0.125" android:gravity="right|center_vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/layWlName7"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8" android:background="@drawable/back_btn_clik1" android:visibility="invisible">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.7"
+                            android:orientation="vertical" android:gravity="right|center_vertical">
+
+                            <TextView
+                                android:id="@+id/txtWlName7"
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:gravity="right|center_vertical"
+                                android:paddingRight="3dip"
+                                android:textColor="#ffffff"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="right|center_vertical"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:paddingRight="4dp"
+                                android:id="@+id/TextView06"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="بیسیم7 :"
+                                android:textColor="#ffffff" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="5dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip" android:layout_weight="0.125" android:gravity="right|center_vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/layWlName8"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8" android:background="@drawable/back_btn_clik1" android:visibility="invisible">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.7"
+                            android:orientation="vertical" android:gravity="right|center_vertical">
+
+                            <TextView
+                                android:id="@+id/txtWlName8"
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:gravity="right|center_vertical"
+                                android:paddingRight="3dip"
+                                android:textColor="#ffffff"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="right|center_vertical"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:paddingRight="4dp"
+                                android:id="@+id/TextView07"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="بیسیم8 :"
+                                android:textColor="#ffffff" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+    
+</LinearLayout>

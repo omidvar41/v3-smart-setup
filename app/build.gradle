@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+android {
+    compileSdkVersion 33
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        configurations.all {
+
+            resolutionStrategy {
+                force 'androidx.core:core:1.8.0'
+            }
+        }
+        applicationId "ir.smartalarm.Setup"
+        minSdkVersion 18
+        targetSdkVersion 33
+        versionCode 4
+        versionName "2.2"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        vectorDrawables.useSupportLibrary = true
+
+
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+
+            shrinkResources true
+            multiDexEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        }
+    }
+    namespace 'smart.SmartSetup'
+
+
+}
+
+dependencies {
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'androidx.appcompat:appcompat:1.6.0'
+
+    implementation 'com.ramotion.fluidslider:fluid-slider:0.3.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation "com.github.firdausmaulan:GlideSlider:$glide_slider_version"
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.getkeepsafe.taptargetview:taptargetview:1.11.0'
+    implementation 'info.hoang8f:fbutton:1.0.5'
+    implementation 'uk.co.samuelwall:material-tap-target-prompt:2.9.0'
+    implementation 'com.github.takusemba:spotlight:1.6.0'
+    implementation platform('com.google.firebase:firebase-bom:26.4.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-crashlytics'
+
+
+}

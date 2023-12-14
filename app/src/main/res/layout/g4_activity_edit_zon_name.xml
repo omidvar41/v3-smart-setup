@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+
+    android:orientation="vertical" android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content" android:layout_weight="0.5">
+
+
+            <TextView
+                android:id="@+id/txtCnZonEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="3dip"
+                android:text="10/1"
+                android:textSize="18dip" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content" android:layout_weight="0.5" android:layout_gravity="right" android:gravity="right">
+
+
+            <TextView
+                android:id="@+id/txtZonEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="3dip"
+                android:text="zon"
+                android:textSize="18dip" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="256dip"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_gravity="center">
+
+
+
+        <EditText
+            android:id="@+id/edtZonName"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:ems="10"
+            android:inputType="textCapWords"
+            android:textSize="24dip" android:maxLength="10" android:textStyle="bold">
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center">
+
+
+        <Button
+            android:id="@+id/btnExit1"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="انصراف" />
+
+
+
+        <Button
+            android:id="@+id/btnSave1"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="ذخیره" />
+
+    </LinearLayout>
+
+</LinearLayout>
